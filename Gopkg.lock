@@ -8,12 +8,6 @@
   version = "v0.0.2"
 
 [[projects]]
-  name = "github.com/russross/blackfriday"
-  packages = ["."]
-  revision = "cadec560ec52d93835bf2f15bd794700d3a2473b"
-  version = "v2.0.0"
-
-[[projects]]
   branch = "master"
   name = "github.com/shurcooL/go"
   packages = ["indentwriter"]
@@ -40,9 +34,15 @@
   ]
   revision = "7c1e4f34a39c8bf93b6a3379e4ffb3b118ecc614"
 
+[[projects]]
+  name = "gopkg.in/russross/blackfriday.v2"
+  packages = ["."]
+  revision = "cadec560ec52d93835bf2f15bd794700d3a2473b"
+  version = "v2.0.0"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "cb1c0ce3a1ccd2952008c3d3dc1f2fac488a3613cbed8436ae2dafe9e2a2babe"
+  inputs-digest = "98aeb6e7d92c3d084d2d06fb19594527998acce97a648d7196008296151bc9d6"
   solver-name = "gps-cdcl"
   solver-version = 1

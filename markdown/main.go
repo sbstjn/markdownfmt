@@ -11,8 +11,8 @@ import (
 	"strings"
 
 	"github.com/mattn/go-runewidth"
-	blackfriday "github.com/russross/blackfriday"
 	"github.com/shurcooL/go/indentwriter"
+	blackfriday "gopkg.in/russross/blackfriday.v2"
 )
 
 var _ blackfriday.Renderer = (*markdownRenderer)(nil)
