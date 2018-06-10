@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/jsternberg/markdownfmt/markdown"
+	"github.com/sbstjn/markdownfmt/markdown"
 )
 
 func Example() {
